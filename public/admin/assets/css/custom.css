@@ -1,0 +1,100 @@
+.site-logo li .logo {
+    position: absolute;
+    top: 6px !important;
+    left: 40px !important;
+}
+
+.header-color {
+    background-color: #5d0e0f;
+}
+
+.disabled-link {
+    pointer-events: none;
+}
+
+.disabled-link:hover {
+    background-color: #788db4 !important;
+    border: 1px solid #788db4 !important;
+}
+
+.badge-completed {
+    background-color: purple !important;
+    color: white !important;
+}
+
+.btn-disabled {
+    background-color: #788db4 !important;
+    border: 1px solid #788db4 !important;
+}
+
+.main-menu .nav li.active a,
+.main-menu .nav li.active a i {
+    font-weight: bolder;
+}
+
+.logo-img {
+    max-width: 200px;
+    height: 200px;
+    display: inline-block;
+    object-fit: contain;
+}
+
+.form-control.is-invalid {
+    border-color: #dc3545;
+}
+
+.active-link {
+    font-weight: bolder;
+}
+
+.button-font-size {
+    font-size: 1.2em !important;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+
+.sign-in-form {
+    max-width: 450px;
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 28px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block;
+    padding-left: 8px;
+    padding-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #323a48;
+    position: relative;
+    padding: .65rem 1rem;
+    line-height: 1.25;
+}
+*, :active, :focus {
+    outline: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.select2-container .select2-selection--single {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    user-select: none;
+    -webkit-user-select: none;
+}
